@@ -1,0 +1,37 @@
+.allBtn1{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 32.5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    svg{
+        color: #E42645;
+        font-size: 25px;
+    }
+
+    &:hover{
+        border: none;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #F0F2F5;
+    }
+}
+.allBtn2{
+    @extend .allBtn1;
+    svg{
+        color: #41B35D;
+        transform: translate(0px, 2px);
+        
+    }
+}
+.allBtn3{
+    @extend .allBtn1;
+    svg{
+        color: #EAB026;
+        transform: translate(0px, 2px);
+        
+    }
+}
